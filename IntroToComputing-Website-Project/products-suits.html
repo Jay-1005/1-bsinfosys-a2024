@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Men's Wear Shop</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="images/favicon (2).ico" type="image/x-icon">
+</head>
+
+<body>
+
+
+    <!-- Sidebar navigation -->
+    <div class="sidebar">
+
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li class="menu-item">
+                <a href="products.html">Products</a>
+                <ul class="submenu">
+                    <li><a href="products-shirts.html">Shirts</a></li>
+                    <li><a href="products-suits.html">Suits</a></li>
+                    <li><a href="products-pants.html">Pants</a></li>
+                    <li><a href="products-shorts.html">Shorts</a></li>
+                    <li><a href="products-shoes.html">Shoes</a></li>
+                    <a href="#orders">Orders</a>
+                    <li>
+                        <div id="cart-icon">🛒</div>
+                        <span id="cart-count">0</span>
+                        <div id="cart-section" style="display: none;">
+                            <ul id="cart-items"></ul>
+                            <p id="cart-total">$0.00</p>
+                            <button id="place-order">Place Order</button>
+                        </div>
+
+                        <!-- Payment Method Section -->
+                        <div id="payment-method-section" style="display: none;">
+                            <h2>Payment Method</h2>
+                            <p id="payment-message"></p>
+                            <button class="payment-method">Credit Card</button>
+                            <button class="payment-method">PayPal</button>
+                            <button class="payment-method">Bank Transfer</button>
+                        </div>
+                    </li>
+                </ul>
+            </li>
+            <li class="menu-item">
+                <a href="blogs.html">Blogs</a>
+                <ul class="submenu">
+                    <li><a href="blogs-blog1.html">Blog 1</a></li>
+                    <li><a href="blogs-blog2.html">Blog 2</a></li>
+                    <li><a href="blogs-blog3.html">Blog 3</a></li>
+                    <li><a href="blogs-blog4.html">Blog 4</a></li>
+                    <li><a href="blogs-blog5.html">Blog 5</a></li>
+                </ul>
+            </li>
+            <li><a href="about-us.html">About Us</a></li>
+            <li><a href="contacts.html">Contact</a></li>
+        </ul>
+    </div>
+    <div class="content">
+        <section>
+            <h2>Our Premium Suit Collection</h2>
+            <div class="product-list">
+                <!-- Product 1: Black Tuxedo Suit -->
+                <div class="product-item">
+                    <div id="suits" class="section">
+                        <h2>Suits</h2>
+                        <div class="product-grid">
+                            <!-- Suit 1 -->
+                            <div class="product">
+                                <img src="images/suit1.jpg" alt="Suit 1">
+                                <p class="details">Elegant Black Suit</p>
+                                <p class="details">Sleek and stylish, this suit offers a modern cut with a sharp
+                                    silhouette,
+                                    ideal for formal events, business meetings, and any occasion requiring a polished
+                                    look.
+                                </p>
+                                <p class="price">$150.00</p>
+                                <button class="add-to-cart" data-name="Elegant Black Suit" data-price="150">
+                                    Add to Cart
+                                </button>
+                            </div>
+                            <!-- Suit 2 -->
+                            <div class="product">
+                                <img src="images/suit2.jpg" alt="Suit 2">
+                                <p class="details">Slim Fit Gray Suit</p>
+                                <p class="details">Perfect for both office and evening events, this slim fit gray suit
+                                    brings
+                                    elegance and comfort,
+                                    with a versatile color that complements a range of shirts and accessories.</p>
+                                <p class="price">$160.00</p>
+                                <button class="add-to-cart" data-name="Slim Fit Gray Suit" data-price="160">
+                                    Add to Cart
+                                </button>
+                            </div>
+                            <!-- Suit 3 -->
+                            <div class="product">
+                                <img src="images/suit3.jpg" alt="Suit 3">
+                                <p class="details">Navy Blue Tailored Suit</p>
+                                <p class="details">A tailored masterpiece in navy blue, this suit is designed to fit
+                                    perfectly,
+                                    offering a classic yet modern appeal for formal occasions.</p>
+                                <p class="price">$180.00</p>
+                                <button class="add-to-cart" data-name="Navy Blue Tailored Suit" data-price="180">
+                                    Add to Cart
+                                </button>
+                            </div>
+                            <!-- Suit 4 -->
+                            <div class="product">
+                                <img src="images/suit4.jpg" alt="Suit 4">
+                                <p class="details">Classic Charcoal Suit</p>
+                                <p class="details">This timeless charcoal suit offers a refined and sophisticated look,
+                                    perfect
+                                    for weddings, galas, or any high-end event.</p>
+                                <p class="price">$170.00</p>
+                                <button class="add-to-cart" data-name="Classic Charcoal Suit" data-price="170">
+                                    Add to Cart
+                                </button>
+                            </div>
+                            <!-- Suit 5 -->
+                            <div class="product">
+                                <img src="images/suit5.jpg" alt="Suit 5">
+                                <p class="details">Double-Breasted Suit</p>
+                                <p class="details">For those who appreciate bold style, this double-breasted suit
+                                    combines
+                                    traditional craftsmanship with a modern touch.</p>
+                                <p class="price">$200.00</p>
+                                <button class="add-to-cart" data-name="Double-Breasted Suit" data-price="200">
+                                    Add to Cart
+                                </button>
+                            </div>
+                            <!-- Suit 6 -->
+                            <div class="product">
+                                <img src="images/suit6.jpg" alt="Suit 6">
+                                <p class="details">Slim Fit Tuxedo</p>
+                                <p class="details">This sleek tuxedo features a slim fit and sharp details, perfect for
+                                    any
+                                    formal occasion, from weddings to gala events.</p>
+                                <p class="price">$220.00</p>
+                                <button class="add-to-cart" data-name="Slim Fit Tuxedo" data-price="220">
+                                    Add to Cart
+                                </button>
+                            </div>
+                            <!-- Suit 7 -->
+                            <div class="product">
+                                <img src="images/suit7.jpg" alt="Suit 7">
+                                <p class="details">Checkered Pattern Suit</p>
+                                <p class="details">This stylish checkered suit is a modern take on classic patterns,
+                                    perfect
+                                    for
+                                    fashion-forward individuals looking to stand out.</p>
+                                <p class="price">$190.00</p>
+                                <button class="add-to-cart" data-name="Checkered Pattern Suit" data-price="190">
+                                    Add to Cart
+                                </button>
+                            </div>
+                            <!-- Suit 8 -->
+                            <div class="product">
+                                <img src="images/suit8.jpg" alt="Suit 8">
+                                <p class="details">Light Gray Casual Suit</p>
+                                <p class="details">Designed for casual yet polished looks, this light gray suit is the
+                                    perfect
+                                    choice for relaxed business meetings or smart-casual events.</p>
+                                <p class="price">$155.00</p>
+                                <button class="add-to-cart" data-name="Light Gray Casual Suit" data-price="155">
+                                    Add to Cart
+                                </button>
+                            </div>
+                            <!-- Suit 9 -->
+                            <div class="product">
+                                <img src="images/suit9.jpg" alt="Suit 9">
+                                <p class="details">Designer Black Suit</p>
+                                <p class="details">This luxurious black suit by a top designer offers ultimate
+                                    sophistication,
+                                    with impeccable tailoring and a perfect fit for any high-profile event.</p>
+                                <p class="price">$250.00</p>
+                                <button class="add-to-cart" data-name="Designer Black Suit" data-price="250">
+                                    Add to Cart
+                                </button>
+                            </div>
+                            <!-- Suit 10 -->
+                            <div class="product">
+                                <img src="images/suit10.jpg" alt="Suit 10">
+                                <p class="details">Two-Piece Suit Set</p>
+                                <p class="details">A classic two-piece suit set in a timeless color, ideal for
+                                    interviews,
+                                    office wear, and other professional settings.</p>
+                                <p class="price">$180.00</p>
+                                <button class="add-to-cart" data-name="Two-Piece Suit Set" data-price="180">
+                                    Add to Cart
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <script src="javascript/scripts.js"></script>
+            </div>
+        </section>
+    </div>
+    <footer class="content">
+        <p>&copy; 2024 Men's Fashion Store. All Rights Reserved.</p>
+    </footer>
+
+</body>
+
+</html>

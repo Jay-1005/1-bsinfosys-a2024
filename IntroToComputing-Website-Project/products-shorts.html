@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Men's Wear Shop</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="images/favicon (2).ico" type="image/x-icon">
+</head>
+
+<body>
+
+
+    <!-- Sidebar navigation -->
+    <div class="sidebar">
+
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li class="menu-item">
+                <a href="products.html">Products</a>
+                <ul class="submenu">
+                    <li><a href="products-shirts.html">Shirts</a></li>
+                    <li><a href="products-suits.html">Suits</a></li>
+                    <li><a href="products-pants.html">Pants</a></li>
+                    <li><a href="products-shorts.html">Shorts</a></li>
+                    <li><a href="products-shoes.html">Shoes</a></li>
+                    <a href="#orders">Orders</a>
+                    <li>
+                        <div id="cart-icon">🛒</div>
+                        <span id="cart-count">0</span>
+                        <div id="cart-section" style="display: none;">
+                            <ul id="cart-items"></ul>
+                            <p id="cart-total">$0.00</p>
+                            <button id="place-order">Place Order</button>
+                        </div>
+
+                        <!-- Payment Method Section -->
+                        <div id="payment-method-section" style="display: none;">
+                            <h2>Payment Method</h2>
+                            <p id="payment-message"></p>
+                            <button class="payment-method">Credit Card</button>
+                            <button class="payment-method">PayPal</button>
+                            <button class="payment-method">Bank Transfer</button>
+                        </div>
+                    </li>
+                </ul>
+            </li>
+            <li class="menu-item">
+                <a href="blogs.html">Blogs</a>
+                <ul class="submenu">
+                    <li><a href="blogs-blog1.html">Blog 1</a></li>
+                    <li><a href="blogs-blog2.html">Blog 2</a></li>
+                    <li><a href="blogs-blog3.html">Blog 3</a></li>
+                    <li><a href="blogs-blog4.html">Blog 4</a></li>
+                    <li><a href="blogs-blog5.html">Blog 5</a></li>
+                </ul>
+            </li>
+            <li><a href="about-us.html">About Us</a></li>
+            <li><a href="contacts.html">Contact</a></li>
+        </ul>
+    </div>
+    <div class="content">
+        <div id="shorts" class="section">
+            <h2>Shorts</h2>
+            <div class="product-grid">
+                <!-- Short 1 -->
+                <div class="product">
+                    <img src="images/short1.jpg" alt="Short 1">
+                    <p class="details">Casual Khaki Shorts</p>
+                    <p class="details">Relaxed and breathable, these khaki shorts are perfect for a warm day out,
+                        featuring a comfortable fit and easy style.</p>
+                    <p class="price">$30.00</p>
+                    <button class="add-to-cart" data-name="Casual Khaki Shorts" data-price="30">
+                        Add to Cart
+                    </button>
+                </div>
+                <!-- Short 2 -->
+                <div class="product">
+                    <img src="images/short2.jpg" alt="Short 2">
+                    <p class="details">Denim Bermuda Shorts</p>
+                    <p class="details">Stylish denim Bermuda shorts for a casual day out, combining comfort and
+                        modern fashion with every step.</p>
+                    <p class="price">$35.00</p>
+                    <button class="add-to-cart" data-name="Denim Bermuda Shorts" data-price="35">
+                        Add to Cart
+                    </button>
+                </div>
+                <!-- Short 3 -->
+                <div class="product">
+                    <img src="images/short3.jpg" alt="Short 3">
+                    <p class="details">Sporty Gym Shorts</p>
+                    <p class="details">Perfect for workouts and casual wear, these gym shorts offer a flexible fit
+                        with sweat-wicking material to keep you comfortable.</p>
+                    <p class="price">$25.00</p>
+                    <button class="add-to-cart" data-name="Sporty Gym Shorts" data-price="25">
+                        Add to Cart
+                    </button>
+                </div>
+                <!-- Short 4 -->
+                <div class="product">
+                    <img src="images/short4.jpg" alt="Short 4">
+                    <p class="details">Classic Khaki Shorts</p>
+                    <p class="price">$28.00</p>
+                </div>
+                <!-- Short 5 -->
+                <div class="product">
+                    <img src="images/short5.jpg" alt="Short 5">
+                    <p class="details">Slim Fit Black Shorts</p>
+                    <p class="price">$32.00</p>
+                </div>
+                <!-- Short 6 -->
+                <div class="product">
+                    <img src="images/short6.jpg" alt="Short 6">
+                    <p class="details">Comfy Lounge Shorts</p>
+                    <p class="price">$22.00</p>
+                </div>
+                <!-- Short 7 -->
+                <div class="product">
+                    <img src="images/short7.jpg" alt="Short 7">
+                    <p class="details">Printed Summer Shorts</p>
+                    <p class="price">$27.00</p>
+                </div>
+                <!-- Short 8 -->
+                <div class="product">
+                    <img src="images/short8.jpg" alt="Short 8">
+                    <p class="details">Cargo Beach Shorts</p>
+                    <p class="price">$40.00</p>
+                </div>
+                <!-- Short 9 -->
+                <div class="product">
+                    <img src="images/short9.jpg" alt="Short 9">
+                    <p class="details">Denim Ripped Shorts</p>
+                    <p class="price">$38.00</p>
+                </div>
+                <!-- Short 10 -->
+                <div class="product">
+                    <img src="images/short10.jpg" alt="Short 10">
+                    <p class="details">Relaxed Fit Chino Shorts</p>
+                    <p class="price">$33.00</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
+    <script src="javascript/scripts.js"></script>
+    <footer class="content">
+        <p>&copy; 2024 Men's Fashion Store. All Rights Reserved.</p>
+    </footer>
+
+</body>
+
+</html>

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Men's Wear Shop</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="images/favicon (2).ico" type="image/x-icon">
+</head>
+
+<body>
+
+
+    <!-- Sidebar navigation -->
+    <div class="sidebar">
+
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li class="menu-item">
+                <a href="products.html">Products</a>
+                <ul class="submenu">
+                    <li><a href="products-shirts.html">Shirts</a></li>
+                    <li><a href="products-suits.html">Suits</a></li>
+                    <li><a href="products-pants.html">Pants</a></li>
+                    <li><a href="products-shorts.html">Shorts</a></li>
+                    <li><a href="products-shoes.html">Shoes</a></li>
+                    <a href="#orders">Orders</a>
+                    <li>
+                        <div id="cart-icon">🛒</div>
+                        <span id="cart-count">0</span>
+                        <div id="cart-section" style="display: none;">
+                            <ul id="cart-items"></ul>
+                            <p id="cart-total">$0.00</p>
+                            <button id="place-order">Place Order</button>
+                        </div>
+
+                        <!-- Payment Method Section -->
+                        <div id="payment-method-section" style="display: none;">
+                            <h2>Payment Method</h2>
+                            <p id="payment-message"></p>
+                            <button class="payment-method">Credit Card</button>
+                            <button class="payment-method">PayPal</button>
+                            <button class="payment-method">Bank Transfer</button>
+                        </div>
+                    </li>
+                </ul>
+            </li>
+            <li class="menu-item">
+                <a href="blogs.html">Blogs</a>
+                <ul class="submenu">
+                    <li><a href="blogs-blog1.html">Blog 1</a></li>
+                    <li><a href="blogs-blog2.html">Blog 2</a></li>
+                    <li><a href="blogs-blog3.html">Blog 3</a></li>
+                    <li><a href="blogs-blog4.html">Blog 4</a></li>
+                    <li><a href="blogs-blog5.html">Blog 5</a></li>
+                </ul>
+            </li>
+            <li><a href="about-us.html">About Us</a></li>
+            <li><a href="contacts.html">Contact</a></li>
+        </ul>
+    </div>
+
+    <div class="content">
+        <section id="products-main">
+            <h1>Our Products</h1>
+            <p>Explore our wide range of men's fashion, including shirts, suits, pants, shorts, and shoes.</p>
+
+            <!-- Product Categories -->
+            <div class="product-category">
+                <h2>Shirts</h2>
+                <p>Stylish and versatile shirts for every occasion, from casual to formal.</p>
+                <a href="products/shirts.html" class="btn">Shop Shirts</a>
+            </div>
+
+            <div class="product-category">
+                <h2>Suits</h2>
+                <p>Elegant suits to make a lasting impression at work or special events.</p>
+                <a href="products/suits.html" class="btn">Shop Suits</a>
+            </div>
+
+            <div class="product-category">
+                <h2>Pants</h2>
+                <p>Comfortable and stylish pants to complement your everyday or formal look.</p>
+                <a href="products/pants.html" class="btn">Shop Pants</a>
+            </div>
+
+            <div class="product-category">
+                <h2>Shorts</h2>
+                <p>Perfect for warmer days, our shorts combine comfort with a sharp style.</p>
+                <a href="products/shorts.html" class="btn">Shop Shorts</a>
+            </div>
+
+            <div class="product-category">
+                <h2>Shoes</h2>
+                <p>Complete your outfit with our range of stylish and comfortable shoes.</p>
+                <a href="products/shoes.html" class="btn">Shop Shoes</a>
+            </div>
+        </section>
+    </div>
+    </section>
+
+    <script src="javascript/scripts.js"></script>
+    <footer>
+        <p>&copy; 2024 Men's Fashion Store. All Rights Reserved.</p>
+    </footer>
+</body>
+
+</html>

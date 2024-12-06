@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Men's Wear Shop</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="images/favicon (2).ico" type="image/x-icon">
+</head>
+
+<body>
+
+
+    <!-- Sidebar navigation -->
+    <div class="sidebar">
+
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li class="menu-item">
+                <a href="products.html">Products</a>
+                <ul class="submenu">
+                    <li><a href="products-shirts.html">Shirts</a></li>
+                    <li><a href="products-suits.html">Suits</a></li>
+                    <li><a href="products-pants.html">Pants</a></li>
+                    <li><a href="products-shorts.html">Shorts</a></li>
+                    <li><a href="products-shoes.html">Shoes</a></li>
+                    <a href="#orders">Orders</a>
+                    <li>
+                        <div id="cart-icon">🛒</div>
+                        <span id="cart-count">0</span>
+                        <div id="cart-section" style="display: none;">
+                            <ul id="cart-items"></ul>
+                            <p id="cart-total">$0.00</p>
+                            <button id="place-order">Place Order</button>
+                        </div>
+
+                        <!-- Payment Method Section -->
+                        <div id="payment-method-section" style="display: none;">
+                            <h2>Payment Method</h2>
+                            <p id="payment-message"></p>
+                            <button class="payment-method">Credit Card</button>
+                            <button class="payment-method">PayPal</button>
+                            <button class="payment-method">Bank Transfer</button>
+                        </div>
+                    </li>
+                </ul>
+            </li>
+            <li class="menu-item">
+                <a href="blogs.html">Blogs</a>
+                <ul class="submenu">
+                    <li><a href="blogs-blog1.html">Blog 1</a></li>
+                    <li><a href="blogs-blog2.html">Blog 2</a></li>
+                    <li><a href="blogs-blog3.html">Blog 3</a></li>
+                    <li><a href="blogs-blog4.html">Blog 4</a></li>
+                    <li><a href="blogs-blog5.html">Blog 5</a></li>
+                </ul>
+            </li>
+            <li><a href="about-us.html">About Us</a></li>
+            <li><a href="contacts.html">Contact</a></li>
+        </ul>
+    </div>
+    <div class="content">
+        <div id="shoes" class="section">
+            <h2>Shoes</h2>
+            <div class="product-grid">
+                <!-- Shoe 1 -->
+                <div class="product">
+                    <img src="images/shoe1.jpg" alt="Shoe 1">
+                    <p class="details">Black Leather Loafers</p>
+                    <p class="details">These black leather loafers offer timeless elegance and comfort, perfect for
+                        both business and casual outings.</p>
+                    <p class="price">$80.00</p>
+                    <button class="add-to-cart" data-name="Black Leather Loafers" data-price="80">
+                        Add to Cart
+                    </button>
+                </div>
+                <!-- Shoe 2 -->
+                <div class="product">
+                    <img src="images/shoe2.jpg" alt="Shoe 2">
+                    <p class="details">Running Sneakers</p>
+                    <p class="details">These running sneakers are designed for performance, providing superior
+                        comfort and support for both running and casual use.</p>
+                    <p class="price">$60.00</p>
+                    <button class="add-to-cart" data-name="Running Sneakers" data-price="60">
+                        Add to Cart
+                    </button>
+                </div>
+                <!-- Shoe 3 -->
+                <div class="product">
+                    <img src="images/shoe3.jpg" alt="Shoe 3">
+                    <p class="details">Casual Slip-On Shoes</p>
+                    <p class="details">Comfortable and stylish, these casual slip-ons are perfect for relaxed days
+                        when comfort is a priority.</p>
+                    <p class="price">$45.00</p>
+                    <button class="add-to-cart" data-name="Casual Slip-On Shoes" data-price="45">
+                        Add to Cart
+                    </button>
+                </div>
+
+
+
+                <!-- Shoe 4 -->
+                <div class="product">
+                    <img src="images/shoe4.jpg" alt="Shoe 4">
+                    <p class="details">Brown Leather Oxfords</p>
+                    <p class="details">These brown leather Oxfords provide a sophisticated touch to any formal
+                        outfit, offering both style and comfort for long wear.</p>
+                    <p class="price">$90.00</p>
+                    <button class="add-to-cart" data-name="Brown Leather Oxfords" data-price="90">
+                        Add to Cart
+                    </button>
+                </div>
+                <!-- Shoe 5 -->
+                <div class="product">
+                    <img src="images/shoe5.jpg" alt="Shoe 5">
+                    <p class="details">White Low-Top Sneakers</p>
+                    <p class="details">These minimalist white sneakers are perfect for casual wear, adding a clean
+                        and stylish look to any everyday outfit.</p>
+                    <p class="price">$50.00</p>
+                    <button class="add-to-cart" data-name="White Low-Top Sneakers" data-price="50">
+                        Add to Cart
+                    </button>
+                </div>
+                <!-- Shoe 6 -->
+                <div class="product">
+                    <img src="images/shoe6.jpg" alt="Shoe 6">
+                    <p class="details">Suede Desert Boots</p>
+                    <p class="details">These desert boots in suede offer a classic yet comfortable design, ideal for
+                        both casual and semi-formal occasions.</p>
+                    <p class="price">$75.00</p>
+                    <button class="add-to-cart" data-name="Suede Desert Boots" data-price="75">
+                        Add to Cart
+                    </button>
+                </div>
+                <!-- Shoe 7 -->
+                <div class="product">
+                    <img src="images/shoe7.jpg" alt="Shoe 7">
+                    <p class="details">Sports Running Shoes</p>
+                    <p class="details">Lightweight and breathable, these running shoes provide ultimate comfort and
+                        support for high-performance athletic activities.</p>
+                    <p class="price">$65.00</p>
+                    <button class="add-to-cart" data-name="Sports Running Shoes" data-price="65">
+                        Add to Cart
+                    </button>
+                </div>
+                <!-- Shoe 8 -->
+                <div class="product">
+                    <img src="images/shoe8.jpg" alt="Shoe 8">
+                    <p class="details">Slip-On Canvas Shoes</p>
+                    <p class="details">Casual and easy to wear, these slip-on canvas shoes are perfect for relaxed
+                        weekends or a quick, stylish getaway look.</p>
+                    <p class="price">$30.00</p>
+                    <button class="add-to-cart" data-name="Slip-On Canvas Shoes" data-price="30">
+                        Add to Cart
+                    </button>
+                </div>
+                <!-- Shoe 9 -->
+                <div class="product">
+                    <img src="images/shoe9.jpg" alt="Shoe 9">
+                    <p class="details">Leather Chelsea Boots</p>
+                    <p class="details">These sleek leather Chelsea boots add a sharp, sophisticated touch to any
+                        outfit, perfect for both casual and semi-formal wear.</p>
+                    <p class="price">$100.00</p>
+                    <button class="add-to-cart" data-name="Leather Chelsea Boots" data-price="100">
+                        Add to Cart
+                    </button>
+                </div>
+                <!-- Shoe 10 -->
+                <div class="product">
+                    <img src="images/shoe10.jpg" alt="Shoe 10">
+                    <p class="details">Designer High-Top Sneakers</p>
+                    <p class="details">Bold and stylish, these high-top sneakers are designed for fashion-forward
+                        individuals, offering a modern look with premium comfort and support.</p>
+                    <p class="price">$120.00</p>
+                    <button class="add-to-cart" data-name="Designer High-Top Sneakers" data-price="120">
+                        Add to Cart
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
+    <script src="javascript/scripts.js"></script>
+    <footer class="content">
+        <p>&copy; 2024 Men's Fashion Store. All Rights Reserved.</p>
+    </footer>
+
+</body>
+
+</html>

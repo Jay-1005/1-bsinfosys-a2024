@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Men's Wear Shop</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="images/favicon (2).ico" type="image/x-icon">
+</head>
+
+<body>
+
+
+    <!-- Sidebar navigation -->
+    <div class="sidebar">
+
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li class="menu-item">
+                <a href="products.html">Products</a>
+                <ul class="submenu">
+                    <li><a href="products-shirts.html">Shirts</a></li>
+                    <li><a href="products-suits.html">Suits</a></li>
+                    <li><a href="products-pants.html">Pants</a></li>
+                    <li><a href="products-shorts.html">Shorts</a></li>
+                    <li><a href="products-shoes.html">Shoes</a></li>
+                    <a href="#orders">Orders</a>
+                    <li>
+                        <div id="cart-icon">🛒</div>
+                        <span id="cart-count">0</span>
+                        <div id="cart-section" style="display: none;">
+                            <ul id="cart-items"></ul>
+                            <p id="cart-total">$0.00</p>
+                            <button id="place-order">Place Order</button>
+                        </div>
+
+                        <!-- Payment Method Section -->
+                        <div id="payment-method-section" style="display: none;">
+                            <h2>Payment Method</h2>
+                            <p id="payment-message"></p>
+                            <button class="payment-method">Credit Card</button>
+                            <button class="payment-method">PayPal</button>
+                            <button class="payment-method">Bank Transfer</button>
+                        </div>
+                    </li>
+                </ul>
+            </li>
+            <li class="menu-item">
+                <a href="blogs.html">Blogs</a>
+                <ul class="submenu">
+                    <li><a href="blogs-blog1.html">Blog 1</a></li>
+                    <li><a href="blogs-blog2.html">Blog 2</a></li>
+                    <li><a href="blogs-blog3.html">Blog 3</a></li>
+                    <li><a href="blogs-blog4.html">Blog 4</a></li>
+                    <li><a href="blogs-blog5.html">Blog 5</a></li>
+                </ul>
+            </li>
+            <li><a href="about-us.html">About Us</a></li>
+            <li><a href="contacts.html">Contact</a></li>
+        </ul>
+    </div>
+
+    <div class="content">
+        <section id="products">
+            <h2>Our Products</h2>
+            <p>Browse through our latest products.</p>
+            <div id="shirts" class="section">
+                <h2>Shirts</h2>
+                <div class="product-grid">
+                    <!-- Shirt 1 -->
+                    <div class="product">
+                        <img src="images/shirt1.jpg" alt="Shirt 1">
+                        <p class="details">Slim Fit White Shirt - A versatile, crisp white shirt tailored to fit the
+                            modern silhouette. Perfect for both formal and semi-formal occasions.</p>
+                        <p class="price">$40.00</p>
+                        <button class="add-to-cart" data-name="Slim Fit White Shirt" data-price="40">
+                            Add to Cart
+                        </button>
+                    </div>
+                    <!-- Shirt 2 -->
+                    <div class="product">
+                        <img src="images/shirt2.jpg" alt="Shirt 2">
+                        <p class="details">Casual Button-Down Shirt - A relaxed fit button-down shirt made of soft
+                            cotton, ideal for casual outings or weekend wear.</p>
+                        <p class="price">$35.00</p>
+                        <button class="add-to-cart" data-name="Casual Button-Down Shirt" data-price="35">
+                            Add to Cart
+                        </button>
+                    </div>
+                    <!-- Shirt 3 -->
+                    <div class="product">
+                        <img src="images/shirt3.jpg" alt="Shirt 3">
+                        <p class="details">Striped Dress Shirt - Elevate your office look with this sharp striped shirt,
+                            offering a stylish balance between business and fashion.</p>
+                        <p class="price">$45.00</p>
+                        <button class="add-to-cart" data-name="Striped Dress Shirt" data-price="45">
+                            Add to Cart
+                        </button>
+                    </div>
+                    <!-- Shirt 4 -->
+                    <div class="product">
+                        <img src="images/shirt4.jpg" alt="Shirt 4">
+                        <p class="details">Plaid Flannel Shirt - Cozy and durable, this flannel shirt brings warmth and
+                            style, making it ideal for colder seasons or casual gatherings.</p>
+                        <p class="price">$50.00</p>
+                        <button class="add-to-cart" data-name="Plaid Flannel Shirt" data-price="50">
+                            Add to Cart
+                        </button>
+                    </div>
+                    <!-- Shirt 5 -->
+                    <div class="product">
+                        <img src="images/shirt5.jpg" alt="Shirt 5">
+                        <p class="details">Denim Shirt - A timeless wardrobe staple, this denim shirt brings rugged
+                            charm to your outfit with its comfortable fit and durable fabric.</p>
+                        <p class="price">$55.00</p>
+                        <button class="add-to-cart" data-name="Denim Shirt" data-price="55">
+                            Add to Cart
+                        </button>
+                    </div>
+                    <!-- Shirt 6 -->
+                    <div class="product">
+                        <img src="images/shirt6.jpg" alt="Shirt 6">
+                        <p class="details">Short-Sleeve Polo Shirt - A stylish alternative to traditional button-downs,
+                            this short-sleeve polo shirt is perfect for warmer weather and casual outings.</p>
+                        <p class="price">$30.00</p>
+                        <button class="add-to-cart" data-name="Short-Sleeve Polo Shirt" data-price="30">
+                            Add to Cart
+                        </button>
+                    </div>
+                    <!-- Shirt 7 -->
+                    <div class="product">
+                        <img src="images/shirt7.jpg" alt="Shirt 7">
+                        <p class="details">Hawaiian Print Shirt - Bring a tropical vibe to your wardrobe with this
+                            vibrant Hawaiian shirt, designed for vacations or casual beach outings.</p>
+                        <p class="price">$35.00</p>
+                        <button class="add-to-cart" data-name="Hawaiian Print Shirt" data-price="35">
+                            Add to Cart
+                        </button>
+                    </div>
+                    <!-- Shirt 8 -->
+                    <div class="product">
+                        <img src="images/shirt8.jpg" alt="Shirt 8">
+                        <p class="details">Vintage Check Shirt - Retro-inspired and perfect for a relaxed look, this
+                            checkered shirt pairs well with jeans or chinos for a laid-back style.</p>
+                        <p class="price">$40.00</p>
+                        <button class="add-to-cart" data-name="Vintage Check Shirt" data-price="40">
+                            Add to Cart
+                        </button>
+                    </div>
+                    <!-- Shirt 9 -->
+                    <div class="product">
+                        <img src="images/shirt9.jpg" alt="Shirt 9">
+                        <p class="details">Oxford Button-Down Shirt - A refined option for both casual and formal wear,
+                            the Oxford shirt features a timeless button-down collar.</p>
+                        <p class="price">$50.00</p>
+                        <button class="add-to-cart" data-name="Oxford Button-Down Shirt" data-price="50">
+                            Add to Cart
+                        </button>
+                    </div>
+                    <!-- Shirt 10 -->
+                    <div class="product">
+                        <img src="images/shirt10.jpg" alt="Shirt 10">
+                        <p class="details">Slim Fit Denim Shirt - Designed with a slimmer profile, this denim shirt
+                            offers a modern take on a classic look, perfect for layered outfits.</p>
+                        <p class="price">$60.00</p>
+                        <button class="add-to-cart" data-name="Slim Fit Denim Shirt" data-price="60">
+                            Add to Cart
+                        </button>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+    </div>
+    <script src="javascript/scripts.js"></script>
+
+    <footer class="content">
+        <p>&copy; 2024 Men's Fashion Store. All Rights Reserved.</p>
+    </footer>
+</body>
+
+</html>

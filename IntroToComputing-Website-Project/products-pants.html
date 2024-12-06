@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Men's Wear Shop</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="images/favicon (2).ico" type="image/x-icon">
+</head>
+
+<body>
+
+
+    <!-- Sidebar navigation -->
+    <div class="sidebar">
+
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li class="menu-item">
+                <a href="products.html">Products</a>
+                <ul class="submenu">
+                    <li><a href="products-shirts.html">Shirts</a></li>
+                    <li><a href="products-suits.html">Suits</a></li>
+                    <li><a href="products-pants.html">Pants</a></li>
+                    <li><a href="products-shorts.html">Shorts</a></li>
+                    <li><a href="products-shoes.html">Shoes</a></li>
+                    <a href="#orders">Orders</a>
+                    <li>
+                        <div id="cart-icon">🛒</div>
+                        <span id="cart-count">0</span>
+                        <div id="cart-section" style="display: none;">
+                            <ul id="cart-items"></ul>
+                            <p id="cart-total">$0.00</p>
+                            <button id="place-order">Place Order</button>
+                        </div>
+
+                        <!-- Payment Method Section -->
+                        <div id="payment-method-section" style="display: none;">
+                            <h2>Payment Method</h2>
+                            <p id="payment-message"></p>
+                            <button class="payment-method">Credit Card</button>
+                            <button class="payment-method">PayPal</button>
+                            <button class="payment-method">Bank Transfer</button>
+                        </div>
+                    </li>
+                </ul>
+            </li>
+            <li class="menu-item">
+                <a href="blogs.html">Blogs</a>
+                <ul class="submenu">
+                    <li><a href="blogs-blog1.html">Blog 1</a></li>
+                    <li><a href="blogs-blog2.html">Blog 2</a></li>
+                    <li><a href="blogs-blog3.html">Blog 3</a></li>
+                    <li><a href="blogs-blog4.html">Blog 4</a></li>
+                    <li><a href="blogs-blog5.html">Blog 5</a></li>
+                </ul>
+            </li>
+            <li><a href="about-us.html">About Us</a></li>
+            <li><a href="contacts.html">Contact</a></li>
+        </ul>
+    </div>
+    <div class="content">
+        <section>
+            <h2>Our Stylish Pants Collection</h2>
+            <div class="product-list">
+                <!-- Product 1: Black Formal Pants -->
+                <div id="pants" class="section">
+                    <h2>Pants</h2>
+                    <div class="product-grid">
+                        <!-- Pant 1 -->
+                        <div class="product">
+                            <img src="images/pant1.jpg" alt="Pant 1">
+                            <p class="details">Slim Fit Black Pants</p>
+                            <p class="details">These slim-fit black pants offer a sleek, modern style with a comfortable
+                                fit, perfect for both business and casual occasions.</p>
+                            <p class="price">$50.00</p>
+                            <button class="add-to-cart" data-name="Slim Fit Black Pants" data-price="50">
+                                Add to Cart
+                            </button>
+                        </div>
+                        <!-- Pant 2 -->
+                        <div class="product">
+                            <img src="images/pant2.jpg" alt="Pant 2">
+                            <p class="details">Classic Navy Blue Trousers</p>
+                            <p class="details">A versatile choice for any wardrobe, these navy blue trousers combine
+                                classic
+                                styling with comfort for everyday wear.</p>
+                            <p class="price">$55.00</p>
+                            <button class="add-to-cart" data-name="Classic Navy Blue Trousers" data-price="55">
+                                Add to Cart
+                            </button>
+                        </div>
+                        <!-- Pant 3 -->
+                        <div class="product">
+                            <img src="images/pant3.jpg" alt="Pant 3">
+                            <p class="details">Khaki Chinos</p>
+                            <p class="details">These khaki chinos offer a stylish yet relaxed look, ideal for both
+                                casual
+                                outings and semi-formal events.</p>
+                            <p class="price">$45.00</p>
+                            <button class="add-to-cart" data-name="Khaki Chinos" data-price="45">
+                                Add to Cart
+                            </button>
+                        </div>
+                        <!-- Pant 4 -->
+                        <div class="product">
+                            <img src="images/pant4.jpg" alt="Pant 4">
+                            <p class="details">Cargo Pants</p>
+                            <p class="details">Designed for practicality and style, these cargo pants offer a relaxed
+                                fit
+                                with plenty of pocket space, perfect for outdoor activities.</p>
+                            <p class="price">$60.00</p>
+                            <button class="add-to-cart" data-name="Cargo Pants" data-price="60">
+                                Add to Cart
+                            </button>
+                        </div>
+                        <!-- Pant 5 -->
+                        <div class="product">
+                            <img src="images/pant5.jpg" alt="Pant 5">
+                            <p class="details">Grey Slim Fit Pants</p>
+                            <p class="details">These grey slim fit pants offer a contemporary and clean look, great for
+                                both
+                                work and weekend wear.</p>
+                            <p class="price">$50.00</p>
+                            <button class="add-to-cart" data-name="Grey Slim Fit Pants" data-price="50">
+                                Add to Cart
+                            </button>
+                        </div>
+                        <!-- Pant 6 -->
+                        <div class="product">
+                            <img src="images/pant6.jpg" alt="Pant 6">
+                            <p class="details">Light Blue Denim Jeans</p>
+                            <p class="details">Casual and comfortable, these light blue denim jeans are perfect for
+                                everyday
+                                wear with a laid-back style.</p>
+                            <p class="price">$40.00</p>
+                            <button class="add-to-cart" data-name="Light Blue Denim Jeans" data-price="40">
+                                Add to Cart
+                            </button>
+                        </div>
+                        <!-- Pant 7 -->
+                        <div class="product">
+                            <img src="images/pant7.jpg" alt="Pant 7">
+                            <p class="details">Brown Corduroy Pants</p>
+                            <p class="price">$55.00</p>
+                        </div>
+                        <!-- Pant 8 -->
+                        <div class="product">
+                            <img src="images/pant8.jpg" alt="Pant 8">
+                            <p class="details">Black Leather Pants</p>
+                            <p class="price">$120.00</p>
+                        </div>
+                        <!-- Pant 9 -->
+                        <div class="product">
+                            <img src="images/pant9.jpg" alt="Pant 9">
+                            <p class="details">Athletic Fit Joggers</p>
+                            <p class="price">$45.00</p>
+                        </div>
+                        <!-- Pant 10 -->
+                        <div class="product">
+                            <img src="images/pant10.jpg" alt="Pant 10">
+                            <p class="details">Linen Summer Pants</p>
+                            <p class="price">$50.00</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </div>
+    </div>
+    <script src="javascript/scripts.js"></script>
+    <footer class="content">
+        <p>&copy; 2024 Men's Fashion Store. All Rights Reserved.</p>
+    </footer>
+
+</body>
+
+</html>
